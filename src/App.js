@@ -9,7 +9,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<FetchList />} />
-          <Route path="/product" element={<FetchItem />} />
+          <Route path="/products/:productId" element={<FetchItem />} />
         </Routes>
       </Router>
     </div>
